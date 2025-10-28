@@ -80,11 +80,11 @@ body {
 
 #searchbar {
     padding-left: 25px;
-    padding-top: 32px;
 
     display: grid;
     grid-template-columns: 40px 1fr;
     grid-template-rows: 30px;
+    align-content: center;
 }
 
 #searchbar > img {
@@ -98,6 +98,33 @@ body {
     border: none;
     padding-left: 15px;
 }
+
+#notifications {
+    padding: 0 50px 0 130px;
+
+    display: grid;
+    grid-template-columns: 25px 40px 100px;
+    align-content: center;
+    gap: 30px;
+}
+
+#notifications > * {
+    justify-self: center;
+    align-self: center;
+}
+
+#notifications > div {
+    width: 40px;
+    height: 40px;
+    background-color: #DDC3C3;
+    border: none;
+    border-radius: 20px;
+}
+
+#notifications > p {
+    font-weight: 700;
+}
+
 
 #main-content {
     z-index: 1;
