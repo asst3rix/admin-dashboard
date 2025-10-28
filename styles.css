@@ -37,6 +37,10 @@ body,
     height: 100%;
 }
 
+body {
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
 #content {
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -48,7 +52,7 @@ body,
 }
 
 #header {
-    
+
 }
 
 #main-content {
