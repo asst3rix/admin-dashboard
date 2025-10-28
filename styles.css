@@ -125,6 +125,40 @@ body {
     font-weight: 700;
 }
 
+#hithere {
+    padding-left: 35px;
+
+    display: grid;
+    grid-template-columns: 70px 1fr;
+}
+
+#hithere > div:first-of-type {
+    width: 70px;
+    height: 70px;
+    background-color: #DDC3C3;
+    border: none;
+    border-radius: 35px;
+    align-self: center;
+}
+
+#greetings {
+    align-self: center;
+}
+
+#greetings > p {
+    padding-left: 20px;
+    font-weight: 700;
+}
+
+#greetings > p:first-of-type {
+    font-size: 0.8em;
+    align-self: end;
+}
+
+#greetings > p:last-of-type {
+    font-size: 1.5em;
+    align-self: start;
+}
 
 #main-content {
     z-index: 1;
