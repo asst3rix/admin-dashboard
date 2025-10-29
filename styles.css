@@ -181,4 +181,14 @@ body {
 #main-content {
     z-index: 1;
     background-color: #e2e8f0;
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+#projects {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
 }
