@@ -43,8 +43,8 @@ body {
 
 #content {
     display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 4fr;
+    grid-template-columns: 285px 1fr;
+    grid-template-rows: 183px 1fr;
 }
 
 #sidebar {
@@ -186,7 +186,7 @@ body {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: repeat(2, 1fr);
-    gap: 15px;
+    gap: 25px;
 }
 
 #projects {
@@ -236,3 +236,37 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
 }
+
+#announcements {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 35px repeat(3, 1fr);
+    gap: 10px;
+}
+
+#announcements > div {
+    grid-row: 2 / 5;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px -1px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 60px);
+    gap: 10px;
+}
+
+.announcements-cards {
+    border-bottom: 1px solid lightgray;
+}
+
+ .announcements-cards > h3 {
+    font-size: 0.8em;
+ }
+
+ .announcements-cards > p {
+    font-size: 0.75em;
+    color: #8b8b8b;
+ }
