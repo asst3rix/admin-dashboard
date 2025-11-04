@@ -69,6 +69,23 @@ body {
     gap: 20px;
 }
 
+.sidebar-menu-line {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    gap: 15px;
+}
+
+#sidebar-dashboard-icon {
+    width: 50px;
+    fill: white;
+}
+
+.sidebar-line-icon {
+    width: 30px;
+    fill: white;
+    justify-self: center;
+}
+
 #header {
     z-index: 2;
     box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.2);
